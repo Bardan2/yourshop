@@ -1,0 +1,181 @@
+.first-container {
+    width: 100%;
+    /* background: linear-gradient(rgb(255, 167, 167), white, rgb(255, 205, 205)); */
+    display: flex;
+}
+
+.text-content {
+    width: 65%;
+    padding-top: 10rem;
+}
+
+.headOne {
+    font-size: 2.5rem;
+    padding: 0 5rem;
+}
+
+.paradise {
+    color: #EC3737;
+}
+
+.para {
+    padding: 2rem 0rem;
+    margin-left: 5rem;
+}
+
+
+
+.personlogo img {
+    padding-top: 4rem;
+    width: 390px;
+    margin: 0 auto;
+    filter: drop-shadow(4px 5px 4px rgb(96, 96, 96));
+}
+
+.btn {
+    background:  #EC3737;
+    color: white;
+    width: 9rem;
+    height: 2rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: red;
+}
+
+.imgs {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imgs img {
+    margin: 10px auto;
+}
+
+.featured-head {
+    text-align: center;
+    margin: 2rem 0 2rem 0;
+}
+
+.featured-products, .latest-products {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    margin: 5px auto;
+    padding: 20px;
+}
+
+.product img:hover {
+    transform: scale(1.04);
+  }
+
+.product h4 {
+    font-weight: 500;
+}
+
+.exclusive {
+    display: flex;
+    background: linear-gradient(rgb(255, 167, 167), white, rgb(255, 205, 205));
+    padding: 0.5rem;
+}
+
+.exclusive-img {
+    width: 50%;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.exclusive-img img {
+    width: 250px;
+}
+
+
+.exclusive-texts {
+    width: 50%;
+    padding: 2rem 3rem;
+}
+
+
+.exclusive-head {
+    padding: 1rem;
+}
+
+@media (max-width: 740px) {
+    .first-container {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+
+    
+    .personlogo img {
+        width: 190px;
+        padding-top: 3rem;
+        display: block;
+    }
+
+    .text-content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .headOne {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .para {
+        margin: 0;
+        text-align: center;
+    }
+
+    .exclusive {
+        width: 100%;
+    }
+
+    .exclusive-img img {
+        width: 150px;
+        height: 120px;
+    }
+
+    .exclusive-texts {
+        width: 90%;
+    }
+
+    .exclusive-head {
+        padding: 0rem;
+    }
+
+    .exclusive-para {
+        font-size: 13px;
+    }
+
+    .exclusive-head {
+        font-size: 20px;
+    }
+
+    .exclusive-para2 {
+        font-size: 15px;
+    }
+
+    .btn {
+        width: 7rem;
+        height: 25px;
+    }
+}

@@ -1,0 +1,35 @@
+.topspace {
+    padding-top: 4.5rem;
+}
+
+.textabout {
+    width: 100%;
+    display: flex;
+}
+
+.storyHead {
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 auto;
+}
+
+.textabout img {
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+.textabout {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+}
+
+
+.textabout img {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+ }
+}

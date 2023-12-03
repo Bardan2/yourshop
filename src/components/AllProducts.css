@@ -1,0 +1,39 @@
+.products-title {
+    padding-top: 8rem;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pages {
+    width: 76%;
+    padding: 2rem 0;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.num {
+    border: 1px solid rgb(186, 186, 186);
+    width: 2rem;
+    height: 2rem;
+    padding: 5px 0;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.num:hover {
+    background: rgb(215, 215, 215);
+}
+
+.arrowbtn {
+    background: #cdcdcd;
+}
+
+@media (max-width: 740px ) {
+    .products-title {
+        font-size: 0.7rem;
+    }
+}
