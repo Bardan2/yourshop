@@ -4,7 +4,6 @@ import About from "./Routes/About";
 import Products from "./Routes/Products";
 import Contact from "./Routes/Contact";
 import Cart from "./Routes/Cart";
-import Account from "./Routes/Account";
 import Register from "./components/Register";
 import Login from "./components/Login";
 
@@ -18,7 +17,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cart" element={<Cart />} />
-          {/* <Route path="/account" element={< />} /> */}
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>
